@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from utils import extract_clean_text
+from utils.pdf_extractor import extract_clean_text
 
 app = FastAPI(title="AI CV Matcher API")
 
